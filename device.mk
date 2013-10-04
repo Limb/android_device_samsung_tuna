@@ -118,6 +118,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
 		Superuser
+		
+# Boot Animation
+PRODUCT_COPY_FILES += \
+		device/samsung/tuna/prebuilt/bootanimation.zip:system/media/bootanimation.zip
 
 # Key maps
 PRODUCT_COPY_FILES += \
