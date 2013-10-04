@@ -111,6 +111,13 @@ PRODUCT_PACKAGES += \
         LiveWallpapersPicker \
         VisualizationWallpapers \
         librs_jni
+		
+# SU and SuperSU
+PRODUCT_COPY_FILES += \
+		device/samsung/tuna/prebuilt/Superuser/su:system/xbin/su
+
+PRODUCT_PACKAGES += \
+		Superuser
 
 # Key maps
 PRODUCT_COPY_FILES += \
